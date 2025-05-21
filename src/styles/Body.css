@@ -1,0 +1,82 @@
+.body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+.profile-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.profile-desc {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: sans-serif;
+}
+.profile-subtitle {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Courier New', monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #555;
+  animation: typing 8s steps(16, end) infinite,
+             blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  45% { width: 15ch }
+  55% { width: 15ch }
+  100% { width: 0 }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icon-button {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.icon-button:hover {
+  background-color: #333;
+}
+
+.icon-button img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  filter: invert(1);
+}
