@@ -15,7 +15,7 @@ const Skills = () => {
           <p>React</p>
         </div>
         <div className="skill">
-          <img src="https://cdn.creazilla.com/icons/3204989/logo-javascript-icon-lg.png" alt="JavaScript" />
+          <img src="https://static-00.iconduck.com/assets.00/logo-js-icon-2048x2048-ptuzd8a3.png" alt="JavaScript" />
           <p>JavaScript</p>
         </div>
         <div className="skill">
