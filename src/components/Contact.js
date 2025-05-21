@@ -10,7 +10,7 @@ const Contact = () => {
       </p>
       <div className="contact-details">
         <p><strong>Email:</strong> <a href="mailto:sravanikarri764@gmail.com">sravanikarri764@gmail.com</a></p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sravani-karri-336751289">https://www.linkedin.com/in/sravani-karri-336751289</a></p>
+        <p><strong>Phone Number:</strong> <a href="tel:+91 9441765293">9441765293</a></p>
       </div>
     </section>
   );
