@@ -15,11 +15,11 @@ const Skills = () => {
           <p>React</p>
         </div>
         <div className="skill">
-          <img src="https://static-00.iconduck.com/assets.00/logo-js-icon-2048x2048-ptuzd8a3.png" alt="JavaScript" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHJ09mXp0EZYejX8v-mc1osFYFcfBSa1fwZg&s" alt="JavaScript" />
           <p>JavaScript</p>
         </div>
         <div className="skill">
-          <img src="https://static-00.iconduck.com/assets.00/logo-python-icon-506x512-t38ct41x.png" alt="Python" />
+          <img src="https://img.icons8.com/ios_filled/512/python.png" alt="Python" />
           <p>Python</p>
         </div>
         <div className="skill">
